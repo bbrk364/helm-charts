@@ -43,3 +43,13 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+## Nutanix Values
+name: silver
+prismEndPoint:
+dataServiceEndPoint:
+user: admin
+password:
+storageContainer: default
+fsType: ext4
+chapAuthEnabled: "false"
