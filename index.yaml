@@ -3,7 +3,7 @@ entries:
   nutanix-storage:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T10:44:53.028680603+02:00
+    created: 2018-04-25T11:11:25.067398833+02:00
     description: Nutanix Storageclass stack for Kubernetes
     digest: a999ff385d7d0478ee2614d9618a70c66f66d5b4438d64bd5d3634e4b071fe93
     icon: https://avatars2.githubusercontent.com/u/6165865?s=200&v=4
@@ -16,6 +16,6 @@ entries:
     - name: tuxtof
     name: nutanix-storage
     urls:
-    - http://127.0.0.1:8879/nutanix-storage-0.1.0.tgz
+    - https://tuxtof.github.io/helm-charts/nutanix-storage-0.1.0.tgz
     version: 0.1.0
-generated: 2018-04-25T10:44:53.027909596+02:00
+generated: 2018-04-25T11:11:25.066674133+02:00
