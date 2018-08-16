@@ -15,4 +15,3 @@ parameters:
     dataServiceEndPoint: {{ .Values.dataServiceEndPoint }}
     storageContainer: {{ .Values.storageContainer }}
     fsType: {{ .Values.fsType }}
-    defaultIqn: {{ .Values.defaultIqn }}

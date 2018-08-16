@@ -9,5 +9,4 @@ username: admin
 password: password
 storageContainer: default
 fsType: xfs
-defaultIqn: iqn.1994-05.com.nutanix:k8s-worker
 defaultStorageClass: true
