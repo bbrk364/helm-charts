@@ -5,7 +5,6 @@ metadata:
 {{- if .Values.defaultStorageClass }}
     annotations:
         storageclass.kubernetes.io/is-default-class: "true"
-
 {{- end }}
 provisioner: com.nutanix.csi
 parameters:
