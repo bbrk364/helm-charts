@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  nutanix-csi-storage:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-08-16T13:26:07.055503659+02:00
+    description: A Helm chart for install Nutanix CSI Drivers
+    digest: f3077f198180862a830a27d99a87bb6241f99bfd8104c189b809336f9a009451
+    name: nutanix-csi-storage
+    urls:
+    - https://tuxtof.github.io/helm-charts/nutanix-csi-storage-0.1.0.tgz
+    version: 0.1.0
   nutanix-storage:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T12:04:31.620360203+02:00
+    created: 2018-08-16T13:26:07.05639115+02:00
     description: Nutanix Storageclass stack for Kubernetes
     digest: 6058d755a53743121bdcacceb1d5d84a0f00539ad57e6261c7ebe83d62a4350d
     icon: https://avatars2.githubusercontent.com/u/6165865?s=200&v=4
@@ -20,7 +30,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T12:04:31.619908026+02:00
+    created: 2018-08-16T13:26:07.055973163+02:00
     description: Nutanix Storageclass stack for Kubernetes
     digest: a999ff385d7d0478ee2614d9618a70c66f66d5b4438d64bd5d3634e4b071fe93
     icon: https://avatars2.githubusercontent.com/u/6165865?s=200&v=4
@@ -35,4 +45,4 @@ entries:
     urls:
     - https://tuxtof.github.io/helm-charts/nutanix-storage-0.1.0.tgz
     version: 0.1.0
-generated: 2018-04-25T12:04:31.619174067+02:00
+generated: 2018-08-16T13:26:07.054826018+02:00
