@@ -1,0 +1,13 @@
+# Default values for nutanix-csi-storage.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+
+prismEndPoint: 10.83.0.91
+dataServiceEndPoint: 10.83.0.92
+username: admin
+password: password
+storageContainer: default
+fsType: xfs
+defaultIqn: iqn.1994-05.com.nutanix:k8s-worker
+defaultStorageClass: true
