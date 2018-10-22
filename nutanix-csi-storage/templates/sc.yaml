@@ -9,9 +9,9 @@ metadata:
 provisioner: com.nutanix.csi
 parameters:
     csiProvisionerSecretName: ntnx-secret
-    csiProvisionerSecretNamespace: default
+    csiProvisionerSecretNamespace: {{ .Release.Namespace }}
     csiNodePublishSecretName: ntnx-secret
-    csiNodePublishSecretNamespace: default
+    csiNodePublishSecretNamespace: {{ .Release.Namespace }}
     dataServiceEndPoint: {{ .Values.dataServiceEndPoint }}
     storageContainer: {{ .Values.storageContainer }}
     fsType: {{ .Values.fsType }}
