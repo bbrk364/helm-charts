@@ -1,20 +1,19 @@
 questions:
-    - variable: persistence.enabled
-    default: "false"
-    description: "Enable persistent volume for WordPress"
-    type: boolean
-    required: true
-    label: WordPress Persistent Volume Enabled
-    show_subquestion_if: true
-    group: "WordPress Settings"
-    subquestions:
-    - variable: persistence.size
-        default: "10Gi"
-        description: "WordPress Persistent Volume Size"
-        type: string
-        label: WordPress Volume Size
-    - variable: persistence.storageClass
-        default: ""
-        description: "If undefined or null, uses the default StorageClass. Default to null"
-        type: storageclass
-        label: Default StorageClass for WordPress
+- variable: defaultImage
+  default: true
+  description: "Use default Docker image"
+  label: Use Default Image
+  type: boolean
+  show_subquestion_if: false
+  group: "Container Images"
+  subquestions:
+  - variable: image.repository
+    default: "quay.io/jetstack/cert-manager-controller"
+    description: "Cert-Manager Docker image name"
+    type: string
+    label: Cert-Manager Docker Image Name
+  - variable: image.tag
+    default: "v0.4.1"
+    description: "Cert-Manager Docker image tag"
+    type: string
+    label: Cert-Manager Image Tag
